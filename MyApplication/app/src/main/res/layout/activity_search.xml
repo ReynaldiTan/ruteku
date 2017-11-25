@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Modules.CustomAutoCompleteTextView
+        android:id="@+id/tujuanAwal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="9dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/write_text"
+        android:textColor="@android:color/primary_text_light"
+        android:hint="Masukan tujuan awal"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/places_ic_search"/>
+    <Modules.CustomAutoCompleteTextView
+        android:id="@+id/tujuanAkhir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="9dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/write_text"
+        android:textColor="@android:color/primary_text_light"
+        android:hint="Masukan Tujuan Akhir"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/places_ic_search"/>
+    <Button
+        android:id="@+id/searchbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Submit" />
+</LinearLayout>
